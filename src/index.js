@@ -5,8 +5,9 @@ const getSum = (arr) => {
         sum += value;
     });
 
-    return sum
+    return sum;
 };
 const arr = [1, 2, 3, 4];
 const arrSum = getSum(arr);
+const demo = 2;
 console.log("结果为" + arrSum);
