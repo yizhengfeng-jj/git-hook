@@ -8,7 +8,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint"
+      "pre-commit": "eslint \"src/**/*.{js, vue, ts}\""
+    
     }
   },
   "author": "",
