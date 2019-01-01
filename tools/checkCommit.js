@@ -6,8 +6,10 @@ const data = fs.readFileSync('../.git/COMMIT_EDITMSG', 'utf-8');
 
 if (/^(AR|BIG)-\d+/.test(data)) {
     console.log('符合要求');
+    process.exit(0);
 }else {
     console.log('不符合要求');
+    process.exit(1);
 }
 console.log(process);
 console.log(data);
