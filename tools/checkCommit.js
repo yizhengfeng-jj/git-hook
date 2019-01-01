@@ -12,12 +12,11 @@ const info = `
         特殊提交：SPECIAL-COMMIT xx(SPECIAL-COMMIT 产品现场问题)
 `;
 
-// 特殊的提交，直接方形
+// 特殊的提交，直接放行
 if (/^SPECIAL-COMMIT/.test(data)) {
     process.exit(0);
 }
 
-console.log('aaaaaa');
 if (/^(AR|BIG)-\d+/.test(data)) {
     console.log('符合要求');
     process.exit(0);
