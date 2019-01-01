@@ -6,4 +6,5 @@ const data = fs.readFileSync('../.git/COMMIT_EDITMSG');
 
 
 console.log(data);
+console.log(data.indexOf(6));
 console.log('===============');
