@@ -18,7 +18,6 @@ if (/^SPECIAL-COMMIT/.test(data)) {
 }
 
 if (/^(AR|BIG)-\d+/.test(data)) {
-    console.log('符合要求');
     process.exit(0);
 }
 
