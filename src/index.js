@@ -8,6 +8,6 @@ const getSum = (arr) => {
     return sum;
 };
 const arr = [1, 2, 3, 4];
-const arrSum = getSum(arr)
+const arrSum = getSum(arr);
 const demo = 2;
 console.log('显示结果为hah' + arrSum);
