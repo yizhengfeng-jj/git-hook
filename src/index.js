@@ -11,3 +11,4 @@ const arr = [1, 2, 3, 4];
 const arrSum = getSum(arr);
 const demo = 2;
 console.log('我是master分支' + arrSum);
+console.log('-----------------------------');
