@@ -10,4 +10,4 @@ const getSum = (arr) => {
 const arr = [1, 2, 3, 4];
 const arrSum = getSum(arr);
 const demo = 2;
-console.log('显示结果为hahkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk' + arrSum);
+console.log('显示结果为hahkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbbbbbbbbbbb' + arrSum);
